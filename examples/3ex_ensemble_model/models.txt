@@ -1,0 +1,2 @@
+/Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_a.pdb
+/Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_b.pdb

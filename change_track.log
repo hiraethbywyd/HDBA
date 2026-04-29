@@ -1,0 +1,54 @@
+stateU
+ calc_incorporated_deuterium_with_weights- Peptide: MAPLR,  Time: 0.0, Deuteration: 0.85, Amides: 2, Observed Rate: 0.03957205482867973, Total Sum: 2.0
+ calc_incorporated_deuterium_with_weights- Peptide: TAVLK,  Time: 0.0, Deuteration: 0.85, Amides: 3, Observed Rate: 1.1819187438373045e-06, Total Sum: 3.0
+ calc_incorporated_deuterium_with_weights- Peptide: LYVAGNTPNSVR,  Time: 0.0, Deuteration: 0.85, Amides: 9, Observed Rate: 2.9876109210081598e-05, Total Sum: 9.0
+ calc_incorporated_deuterium_with_weights- Peptide: ALK,  Time: 0.0, Deuteration: 0.85, Amides: 1, Observed Rate: 2.758132923071892e-05, Total Sum: 1.0
+ calc_incorporated_deuterium_with_weights- Peptide: TLNNILEK,  Time: 0.0, Deuteration: 0.85, Amides: 6, Observed Rate: 9.115645279878537e-05, Total Sum: 6.0
+ calc_incorporated_deuterium_with_weights- Peptide: EFK,  Time: 0.0, Deuteration: 0.85, Amides: 1, Observed Rate: 3.645383995684951e-05, Total Sum: 1.0
+ calc_incorporated_deuterium_with_weights- Peptide: GVYALK,  Time: 0.0, Deuteration: 0.85, Amides: 4, Observed Rate: 0.00011184781293749595, Total Sum: 4.0
+ calc_incorporated_deuterium_with_weights- Peptide: VIDVLK,  Time: 0.0, Deuteration: 0.85, Amides: 4, Observed Rate: 0.003703890288715369, Total Sum: 4.0
+ calc_incorporated_deuterium_with_weights- Peptide: NPQLAEEDK,  Time: 0.0, Deuteration: 0.85, Amides: 7, Observed Rate: 0.0006933627759135463, Total Sum: 7.0
+ calc_incorporated_deuterium_with_weights- Peptide: ILATPTLAK,  Time: 0.0, Deuteration: 0.85, Amides: 6, Observed Rate: 1.3507795081961775e-06, Total Sum: 6.0
+ calc_incorporated_deuterium_with_weights- Peptide: VLPPPVR,  Time: 0.0, Deuteration: 0.85, Amides: 2, Observed Rate: 0.0002439733650107697, Total Sum: 2.0
+ calc_incorporated_deuterium_with_weights- Peptide: IIGDLSNR,  Time: 0.0, Deuteration: 0.85, Amides: 6, Observed Rate: 0.0020107195594027166, Total Sum: 6.0
+ calc_incorporated_deuterium_with_weights- Peptide: EK,  Time: 0.0, Deuteration: 0.85, Amides: 0, Observed Rate: 0.0020107195594027166, Total Sum: 0
+ calc_incorporated_deuterium_with_weights- Peptide: VLIALR,  Time: 0.0, Deuteration: 0.85, Amides: 4, Observed Rate: 0.00010311854886739278, Total Sum: 4.0
+ calc_incorporated_deuterium_with_weights- Peptide: LLAEEIGD,  Time: 0.0, Deuteration: 0.85, Amides: 6, Observed Rate: 0.012302722531240354, Total Sum: 6.0
+ 
+ Overall Average Log Likelihood: 0.9189385332046723, Time: 0.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 30.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 60.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 300.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 900.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 3600.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 14400.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 84600.0
+
+
+stateH
+ calc_incorporated_deuterium_with_weights- Peptide: MAPLR,  Time: 0.0, Deuteration: 0.85, Amides: 2, Observed Rate: 0.039572054828682354, Total Sum: 2.0
+ calc_incorporated_deuterium_with_weights- Peptide: TAVLK,  Time: 0.0, Deuteration: 0.85, Amides: 3, Observed Rate: 5.5974403960354344e-08, Total Sum: 3.0
+ calc_incorporated_deuterium_with_weights- Peptide: LYVAGNTPNSVR,  Time: 0.0, Deuteration: 0.85, Amides: 9, Observed Rate: 1.0508971607267063e-07, Total Sum: 9.0
+ calc_incorporated_deuterium_with_weights- Peptide: ALK,  Time: 0.0, Deuteration: 0.85, Amides: 1, Observed Rate: 5.29699188957425e-06, Total Sum: 1.0
+ calc_incorporated_deuterium_with_weights- Peptide: TLNNILEK,  Time: 0.0, Deuteration: 0.85, Amides: 6, Observed Rate: 1.7506588294223372e-05, Total Sum: 6.0
+ calc_incorporated_deuterium_with_weights- Peptide: EFK,  Time: 0.0, Deuteration: 0.85, Amides: 1, Observed Rate: 2.0006291299430142e-05, Total Sum: 1.0
+ calc_incorporated_deuterium_with_weights- Peptide: GVYALK,  Time: 0.0, Deuteration: 0.85, Amides: 4, Observed Rate: 2.1480361373934494e-05, Total Sum: 4.0
+ calc_incorporated_deuterium_with_weights- Peptide: VIDVLK,  Time: 0.0, Deuteration: 0.85, Amides: 4, Observed Rate: 0.0005012670604405135, Total Sum: 4.0
+ calc_incorporated_deuterium_with_weights- Peptide: NPQLAEEDK,  Time: 0.0, Deuteration: 0.85, Amides: 7, Observed Rate: 0.005662111401281602, Total Sum: 7.0
+ calc_incorporated_deuterium_with_weights- Peptide: ILATPTLAK,  Time: 0.0, Deuteration: 0.85, Amides: 6, Observed Rate: 4.9821028351108467e-08, Total Sum: 6.0
+ calc_incorporated_deuterium_with_weights- Peptide: VLPPPVR,  Time: 0.0, Deuteration: 0.85, Amides: 2, Observed Rate: 3.301820475802585e-05, Total Sum: 2.0
+ calc_incorporated_deuterium_with_weights- Peptide: IIGDLSNR,  Time: 0.0, Deuteration: 0.85, Amides: 6, Observed Rate: 0.0028533468762131104, Total Sum: 6.0
+ calc_incorporated_deuterium_with_weights- Peptide: EK,  Time: 0.0, Deuteration: 0.85, Amides: 0, Observed Rate: 0.0028533468762131104, Total Sum: 0
+ calc_incorporated_deuterium_with_weights- Peptide: VLIALR,  Time: 0.0, Deuteration: 0.85, Amides: 4, Observed Rate: 1.3309318004531457e-06, Total Sum: 4.0
+ calc_incorporated_deuterium_with_weights- Peptide: LLAEEIGD,  Time: 0.0, Deuteration: 0.85, Amides: 6, Observed Rate: 0.008669582061777498, Total Sum: 6.0
+
+ calc_incorporated_deuterium_with_weights- Peptide: MAPLR,  Time: 30.0, Deuteration: 0.85, Amides: 2, Observed Rate: 0.03957205482867973, Total Sum: 0.3050859786581934
+
+Overall Average Log Likelihood: 0.9189385332046723, Time: 0.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 30.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 60.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 300.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 900.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 3600.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 14400.0
+Overall Average Log Likelihood: 0.9189385332046723, Time: 84600.0

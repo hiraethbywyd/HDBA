@@ -1,0 +1,4 @@
+../examples/4ex_model+search/4state/yulia1.pdb
+../examples/4ex_model+search/4state/yulia2.pdb
+../examples/4ex_model+search/4state/yulia3.pdb
+../examples/4ex_model+search/4state/yulia4.pdb

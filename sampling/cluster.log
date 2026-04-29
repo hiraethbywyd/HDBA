@@ -1,0 +1,114 @@
+2025-10-17 10:36:39,911 INFO Loaded 3 PDB structures.
+2025-10-17 10:36:39,925 INFO The attribute(s) types have already been read from the topology file. The guesser will only guess empty values for this attribute, if any exists. To overwrite it by completely guessed values, you can pass the attribute to the force_guess parameter instead of the to_guess one
+2025-10-17 10:36:39,925 INFO There is no empty types values. Guesser did not guess any new values for types attribute
+2025-10-17 10:36:39,926 INFO attribute masses has been guessed successfully.
+/home/khuang/miniconda3/envs/hdx_model/lib/python3.13/site-packages/MDAnalysis/topology/PDBParser.py:350: UserWarning: Element information is missing, elements attribute will not be populated. If needed these can be guessed using universe.guess_TopologyAttrs(context='default', to_guess=['elements']).
+  warnings.warn("Element information is missing, elements attribute "
+2025-10-17 10:36:39,944 INFO attribute types has been guessed successfully.
+2025-10-17 10:36:39,945 INFO attribute masses has been guessed successfully.
+2025-10-17 10:36:39,957 INFO The attribute(s) types have already been read from the topology file. The guesser will only guess empty values for this attribute, if any exists. To overwrite it by completely guessed values, you can pass the attribute to the force_guess parameter instead of the to_guess one
+2025-10-17 10:36:39,957 INFO There is no empty types values. Guesser did not guess any new values for types attribute
+2025-10-17 10:36:39,957 INFO attribute masses has been guessed successfully.
+2025-10-17 10:36:39,958 INFO Computing RMSD matrix...
+2025-10-17 10:36:40,601 INFO cutoff=1.000 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,604 INFO cutoff=1.007 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,606 INFO cutoff=1.013 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,609 INFO cutoff=1.020 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,611 INFO cutoff=1.026 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,613 INFO cutoff=1.033 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,614 INFO cutoff=1.039 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,616 INFO cutoff=1.046 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,617 INFO cutoff=1.052 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,619 INFO cutoff=1.059 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,620 INFO cutoff=1.065 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,622 INFO cutoff=1.072 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,623 INFO cutoff=1.078 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,624 INFO cutoff=1.085 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,625 INFO cutoff=1.091 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,626 INFO cutoff=1.098 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,627 INFO cutoff=1.104 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,628 INFO cutoff=1.111 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,629 INFO cutoff=1.117 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,630 INFO cutoff=1.124 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,631 INFO cutoff=1.130 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,632 INFO cutoff=1.137 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,633 INFO cutoff=1.143 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,633 INFO cutoff=1.150 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,634 INFO cutoff=1.156 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,635 INFO cutoff=1.163 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,636 INFO cutoff=1.169 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,637 INFO cutoff=1.176 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,638 INFO cutoff=1.182 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,639 INFO cutoff=1.189 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,639 INFO cutoff=1.195 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,640 INFO cutoff=1.202 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,641 INFO cutoff=1.208 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,642 INFO cutoff=1.215 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,643 INFO cutoff=1.221 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,644 INFO cutoff=1.228 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,645 INFO cutoff=1.234 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,646 INFO cutoff=1.241 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,647 INFO cutoff=1.247 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,647 INFO cutoff=1.254 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,648 INFO cutoff=1.260 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,649 INFO cutoff=1.267 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,650 INFO cutoff=1.273 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,651 INFO cutoff=1.280 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,652 INFO cutoff=1.286 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,653 INFO cutoff=1.293 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,653 INFO cutoff=1.299 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,654 INFO cutoff=1.306 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,655 INFO cutoff=1.312 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,656 INFO cutoff=1.319 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,657 INFO cutoff=1.325 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,658 INFO cutoff=1.332 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,659 INFO cutoff=1.338 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,660 INFO cutoff=1.345 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,661 INFO cutoff=1.351 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,661 INFO cutoff=1.358 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,662 INFO cutoff=1.364 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,663 INFO cutoff=1.371 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,664 INFO cutoff=1.377 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,665 INFO cutoff=1.384 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,666 INFO cutoff=1.390 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,667 INFO cutoff=1.397 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,667 INFO cutoff=1.403 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,668 INFO cutoff=1.410 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,669 INFO cutoff=1.416 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,670 INFO cutoff=1.423 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,671 INFO cutoff=1.429 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,672 INFO cutoff=1.436 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,673 INFO cutoff=1.443 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,674 INFO cutoff=1.449 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,674 INFO cutoff=1.456 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,675 INFO cutoff=1.462 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,676 INFO cutoff=1.469 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,677 INFO cutoff=1.475 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,678 INFO cutoff=1.482 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,679 INFO cutoff=1.488 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,680 INFO cutoff=1.495 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,681 INFO cutoff=1.501 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,681 INFO cutoff=1.508 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,682 INFO cutoff=1.514 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,683 INFO cutoff=1.521 -> 0 clusters, coverage=0.0%
+2025-10-17 10:36:40,684 INFO cutoff=1.527 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,685 INFO cutoff=1.534 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,686 INFO cutoff=1.540 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,687 INFO cutoff=1.547 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,687 INFO cutoff=1.553 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,688 INFO cutoff=1.560 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,689 INFO cutoff=1.566 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,690 INFO cutoff=1.573 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,691 INFO cutoff=1.579 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,692 INFO cutoff=1.586 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,693 INFO cutoff=1.592 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,694 INFO cutoff=1.599 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,695 INFO cutoff=1.605 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,696 INFO cutoff=1.612 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,696 INFO cutoff=1.618 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,697 INFO cutoff=1.625 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,698 INFO cutoff=1.631 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,699 INFO cutoff=1.638 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,700 INFO cutoff=1.644 -> 1 clusters, coverage=100.0%
+2025-10-17 10:36:40,700 WARNING No cutoff produced desired cluster range, using fallback cutoff 1.527
+2025-10-17 10:36:40,700 INFO Identified 1 microstates.

@@ -1,0 +1,1 @@
+/Users/kehuang/Documents/GitHub/bayesian_hdx/examples/compare_to_exp_HDX/example2.pdb

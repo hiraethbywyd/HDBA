@@ -1,0 +1,150 @@
+python run_forward_mode_mono.py -d 0.85 -t 30.0 60.0 180.0 600.0 1800.0 3600.0 7200.0 -p 7 -temp 300 --dual_file ../examples/ensemble_model/demo3.csv ../examples/ensemble_model/models.txt -w 0.7 0.4 -o ../examples/ensemble_model/ensemble_hdx.csv -l ../examples/ensemble_model/peptides.dat 
+
+
+Dual‐file mode (exp vs. model)
+/Users/kehuang/miniconda3/lib/python3.10/site-packages/mdtraj/formats/pdb/pdbfile.py:200: UserWarning: Unlikely unit cell vectors detected in PDB file likely resulting from a dummy CRYST1 record. Discarding unit cell vectors.
+  warnings.warn('Unlikely unit cell vectors detected in PDB file likely '
+
+[get_amino_acid_sequence] Loaded '/Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_a.pdb':
+  length=607, first 200 aa: MDNLSDTLKKLKITAVDKTEDSLEGCLDCLLQALAQNNTETSEKIQASGILQLFASLLTPQSSCKAKVANIIAEVAKNEFMRIPCVDAGLISPLVQLLNSKDQEVLLQTGRALGNICYDSHEGRSAVDQAGGAQIVIDHLRSLCSITDPANEKLLTVFCGMLMNYSNENDSLQAQLINMGVIPTLVKLLGIHCQNAALTE
+
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_a.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_a.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_a.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_a.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_a.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_a.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_a.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+
+[get_amino_acid_sequence] Loaded '/Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_b.pdb':
+  length=607, first 200 aa: MDNLSDTLKKLKITAVDKTEDSLEGCLDCLLQALAQNNTETSEKIQASGILQLFASLLTPQSSCKAKVANIIAEVAKNEFMRIPCVDAGLISPLVQLLNSKDQEVLLQTGRALGNICYDSXEGRSAVDQAGGAQIVIDXLRSLCSITDPANEKLLTVFCGMLMNYSNENDSLQAQLINMGVIPTLVKLLGIXCQNAALTE
+
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_b.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_b.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_b.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_b.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_b.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_b.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Error processing peptide PEPTIDE for /Users/kehuang/Documents/GitHub/bayesian_hdx/examples/ensemble_model/e3_b.pdb: Peptide 'PEPTIDE' not found (with X→wildcard) in sequence.
+Experimental DataFrame:
+                      Peptide  30.0_percent  60.0_percent  180.0_percent  600.0_percent  1800.0_percent  3600.0_percent  7200.0_percent
+0      LQALAQNNTETSEKIQASGILQ         13.06         21.83          41.81          48.45           75.42           90.56           98.89
+1        FASLLTPQSSCKAKVANIIA          9.70         15.81          30.85          49.68           70.07           92.11          101.95
+2       FASLLTPQSSCKAKVANIIAE          8.96         14.93          29.14          48.90           66.03           88.99           96.40
+3     LTPQSSCKAKVANIIAEVAKNEF         14.05         18.55          37.04          52.75           76.94           95.95           99.87
+4           MRIPCVDAGLISPLVQL          7.64         12.17          27.62          44.80           66.68           89.22           97.55
+5            DSHEGRSAVDQAGGAQ          9.07         16.47          29.32          47.64           66.29           90.74           98.09
+6    MRIPCVDAGLISPLVQLLNSKDQE         18.02         25.72          39.34          50.42           73.26           97.80          102.28
+7                   LNSKDQEVL         10.37         18.15          42.20          53.75           84.91          101.16          102.48
+8                LQTGRALGNICY         24.56         42.32          63.64          78.21           85.96          105.77          106.08
+9                 IVIDHLRSLCS         17.83         26.10          42.24          52.34           75.05           97.74          101.14
+10   IVIDHLRSLCSITDPANEKLLTVF         19.09         26.99          43.53          52.95           75.65           98.44          101.61
+11              ITDPANEKLLTVF         20.97         30.01          40.78          52.32           76.35           99.89          101.68
+12             MNYSNENDSLQAQL         12.27         17.83          26.46          44.26           58.89           83.59           98.24
+13        GVIPTLVKLLGIHCQNAAL          9.39         13.13          21.52          40.22           51.49           75.42           89.23
+14      GVIPTLVKLLGIHCQNAALTE         18.32         25.32          33.28          47.66           65.60           86.76           94.80
+15              VKLLGIHCQNAAL         18.82         27.73          40.15          43.53           66.79           83.04           84.10
+16           VAFGNLAELESSKEQF         31.29         45.48          55.22          54.98           82.07          101.39          103.32
+17         AELESSKEQFASTNIAEE         31.14         45.74          54.61          54.58           82.70          101.21          104.36
+18            ESSKEQFASTNIAEE         15.75         22.66          37.43          52.88           68.10           91.68           93.02
+19         LVKLFKKQIEHDKREMIF         18.03         25.97          40.56          57.50           73.45          100.33          102.04
+20        LVKLFKKQIEHDKREMIFE         16.30         23.66          37.95          55.38           71.28           96.54           99.38
+21          VKLFKKQIEHDKREMIF          9.96         14.46          23.43          44.23           48.05           73.80           92.05
+22         APLAENDAIKLQLVEAGL         33.16         44.30          66.10          77.03          108.58          137.36          142.94
+23         LEIVQQKVDSDKEDDITE         22.17         31.33          50.11          58.23           83.00          101.08          100.67
+24   LEIVQQKVDSDKEDDITELKTGSD         21.15         31.44          49.45          58.62           82.25          103.10          103.13
+25  LEIVQQKVDSDKEDDITELKTGSDL         21.57         30.97          48.52          56.79           80.22           99.11           98.22
+26   EIVQQKVDSDKEDDITELKTGSDL         22.29         33.10          50.80          59.48           84.94          104.08          104.14
+27    IVQQKVDSDKEDDITELKTGSDL         20.42         29.58          41.84          52.70           75.36           96.07           97.40
+28     VLLLLGDESMQKLFEGGKGSVF         28.94         33.69          51.71          64.52           83.29          104.09          110.27
+29       LLLGDESMQKLFEGGKGSVF         13.41         20.30          36.77          51.83           75.68           97.90          101.90
+30       QRVLSWIPSNNHQLQLAGAL         14.26         21.87          38.47          54.01           78.59          100.99          104.85
+31      QRVLSWIPSNNHQLQLAGALA         25.16         35.03          50.82          56.31           82.95          101.90          100.78
+32               AIANFARNDANC         20.95         29.86          39.89          51.23           64.32           86.21           93.58
+33        ARNDANCIHMVDNGIVEKL         28.63         42.26          57.40          58.60           80.97           94.10           90.91
+34     MDLLDRHVEDGNVTVQHAALSA         20.24         29.93          49.54          57.32           92.59          103.07          102.84
+35    SALRNLAIPVINKAKMLSAGVTE         20.06         29.99          48.95          57.88           91.68          102.17          103.49
+36    AVLKFLKSEMPPVQFKLLGTLRM         14.30         20.82          38.34          55.71           83.59           98.94          102.60
+37         LIDAQAEAAEQLGKNVKL         10.93         15.20          32.42          53.28           70.80           84.58           91.48
+38   LIDAQAEAAEQLGKNVKLVERLVE         29.74         44.71          59.18          58.99           88.05          104.83          100.40
+39       WCEAKDHAGVMGESNRLLSA         23.95         34.98          62.10          57.73           96.42          106.83          103.45
+40  LIRHSKSKDVIKTIVQSGGIKHLVT         24.12         34.49          50.59          61.96           97.84          104.49          105.45
+41   IRHSKSKDVIKTIVQSGGIKHLVT         24.13         33.93          48.30          57.83           82.87           99.09          102.53
+42           MATSEHVIMQNEALVA         15.43         27.01          38.05          52.38           69.50           87.84           98.54
+43                HVIMQNEALVA         27.85         39.66          57.32          57.00           86.21           95.79           98.72
+44         IAALELGTAEKDLESAKL         31.03         43.14          55.49          56.52           88.53           98.40           99.60
+45            LELGTAEKDLESAKL         19.56         29.01          42.88          53.92           66.68           85.44           89.88
+46   VQILHRLLADERSAPEIKYNSMVL         18.95         26.91          38.81          55.77           62.26           88.33           91.51
+47        ICALMGSECLHKEVQDLAF         16.55         22.04          34.66          51.92           61.03           83.21           89.48
+48       ICALMGSECLHKEVQDLAFL         19.17         27.36          39.46          57.11           67.16           94.10           99.83
+49          ALMGSECLHKEVQDLAF         17.29         22.68          35.93          50.71           64.71           87.05           90.86
+50            MGSECLHKEVQDLAF         28.76         41.66          58.54          59.57           83.54           99.96          101.16
+51      LDVVSKLRSHENKSVAQQASL         27.14         40.76          60.02          61.77           92.80          101.03          100.98
+52  DVVSKLRSHENKSVAQQASLTEQRL         24.67         39.34          55.46          60.90           91.50           99.47           98.86
+Model DataFrame (head):
+                      Peptide      30.0      60.0     180.0      600.0     1800.0     3600.0     7200.0  30.0_percent  60.0_percent  180.0_percent  600.0_percent  1800.0_percent  3600.0_percent  7200.0_percent
+0      LQALAQNNTETSEKIQASGILQ  4.807008  5.979993  7.827979  10.073902  12.121800  13.253858  14.227923     21.850035     27.181787      35.581724      45.790461       55.099092       60.244808       64.672378
+1        FASLLTPQSSCKAKVANIIA  3.808117  4.713932  6.189537   7.662502   8.934637   9.790559  10.608329     19.040583     23.569660      30.947685      38.312509       44.673184       48.952794       53.041646
+2       FASLLTPQSSCKAKVANIIAE  3.808337  4.714373  6.190859   7.666899   8.947748   9.816542  10.659353     18.134939     22.449395      29.480282      36.509044       42.608325       46.745436       50.758823
+3     LTPQSSCKAKVANIIAEVAKNEF  4.241728  5.265860  6.795884   8.064605   9.144327   9.979049  10.894355     18.442297     22.895046      29.547322      35.063502       39.757942       43.387171       47.366759
+4           MRIPCVDAGLISPLVQL  2.112321  2.894863  4.234233   6.044345   7.559373   8.232619   8.796502     12.425420     17.028607      24.907252      35.554969       44.466897       48.427172       51.744130
+5            DSHEGRSAVDQAGGAQ  2.762549  3.374212  4.445616   5.696813   7.054414   8.075039   9.215415     17.265934     21.088828      27.785100      35.605081       44.090085       50.468991       57.596345
+6    MRIPCVDAGLISPLVQLLNSKDQE  5.985091  7.221446  9.156801  11.603587  13.607386  14.562546  15.345511     24.937881     30.089357      38.153339      48.348281       56.697441       60.677275       63.939630
+7                   LNSKDQEVL  4.037852  4.245669  4.372910   4.582309   4.872064   5.019205   5.089247     44.865019     47.174103      48.587888      50.914544       54.134039       55.768940       56.547186
+8                LQTGRALGNICY  0.074661  0.145079  0.390707   0.967051   1.830114   2.595305   3.466237      0.622179      1.208988       3.255888       8.058758       15.250949       21.627541       28.885311
+9                 IVIDHLRSLCS  0.859406  1.139538  1.980127   3.367957   4.695933   5.446994   6.079942      7.812782     10.359436      18.001155      30.617791       42.690301       49.518123       55.272199
+10   IVIDHLRSLCSITDPANEKLLTVF  3.969253  4.849210  6.427938   8.500429  10.664269  12.132969  13.501367     16.538555     20.205042      26.783075      35.418454       44.434454       50.554036       56.255695
+11              ITDPANEKLLTVF  1.779215  2.034246  2.494563   3.281087   4.330383   5.052980   5.741339     13.686270     15.648045      19.188949      25.239133       33.310636       38.869077       44.164144
+12             MNYSNENDSLQAQL  2.659774  2.961235  3.598534   4.748995   5.897935   6.497184   6.995354     18.998389     21.151679      25.703815      33.921391       42.128104       46.408454       49.966815
+13        GVIPTLVKLLGIHCQNAAL  4.323133  4.925662  6.105019   7.416354   8.553868   9.250307   9.982968     22.753330     25.924538      32.131681      39.033444       45.020359       48.685824       52.541936
+14      GVIPTLVKLLGIHCQNAALTE  4.346367  4.971604  6.236786   7.795210   9.354452  10.348368  11.351560     20.696988     23.674303      29.698979      37.120047       44.545008       49.277945       54.055049
+15              VKLLGIHCQNAAL  3.947105  4.275065  4.895341   5.813684   6.592518   6.918270   7.209468     30.362344     32.885116      37.656467      44.720644       50.711675       53.217459       55.457449
+16           VAFGNLAELESSKEQF  3.017261  3.719943  5.165879   6.935205   8.446562   9.276760  10.006302     18.857879     23.249643      32.286745      43.345034       52.791012       57.979748       62.539385
+17         AELESSKEQFASTNIAEE  4.514367  5.379485  7.050005   9.001352  10.680588  11.581406  12.232288     25.079816     29.886026      39.166696      50.007509       59.336601       64.341144       67.957157
+18            ESSKEQFASTNIAEE  2.749815  3.527285  4.984651   6.621340   8.144704   9.031774   9.682289     18.332099     23.515233      33.231005      44.142268       54.298024       60.211825       64.548590
+19         LVKLFKKQIEHDKREMIF  3.617662  4.490354  6.129454   8.199834   9.859209  10.716048  11.440190     20.098124     24.946412      34.052524      45.554633       54.773384       59.533600       63.556610
+20        LVKLFKKQIEHDKREMIFE  3.629265  4.513438  6.197274   8.410345  10.381857  11.532056  12.542860     19.101394     23.754935      32.617232      44.264971       54.641353       60.695032       66.015050
+21          VKLFKKQIEHDKREMIF  3.589232  4.434903  5.978627   7.832325   9.294847  10.089550  10.750344     21.113131     26.087663      35.168397      46.072497       54.675572       59.350295       63.237320
+22         APLAENDAIKLQLVEAGL  1.884217  2.268103  3.301298   5.023580   6.799843   7.931509   9.092245     10.467870     12.600572      18.340545      27.908779       37.776904       44.063941       50.512470
+23         LEIVQQKVDSDKEDDITE  5.278795  5.702295  6.554014   7.884153   9.129366   9.807853  10.435528     29.326641     31.679415      36.411191      43.800851       50.718699       54.488069       57.975155
+24   LEIVQQKVDSDKEDDITELKTGSD  5.372518  5.879282  6.990614   8.857636  10.997896  12.409677  13.716282     22.385491     24.497009      29.127557      36.906816       45.824568       51.706987       57.151174
+25  LEIVQQKVDSDKEDDITELKTGSDL  5.434626  5.998256  7.293391   9.479519  11.787394  13.204099  14.474269     21.738505     23.993026      29.173564      37.918075       47.149577       52.816394       57.897075
+26   EIVQQKVDSDKEDDITELKTGSDL  5.428526  5.986117  7.257677   9.368217  11.508932  12.767728  13.887225     22.618860     24.942153      30.240323      39.034239       47.953883       53.198868       57.863437
+27    IVQQKVDSDKEDDITELKTGSDL  5.428126  5.985316  7.255279   9.360249  11.485267  12.721100  13.796692     23.600548     26.023114      31.544690      40.696737       49.935942       55.309132       59.985617
+28     VLLLLGDESMQKLFEGGKGSVF  2.979342  3.766767  5.157916   6.905177   8.783608  10.069919  11.430825     13.542462     17.121666      23.445073      31.387169       39.925491       45.772361       51.958293
+29       LLLGDESMQKLFEGGKGSVF  2.976988  3.762066  5.143886   6.859224   8.652375   9.825483  11.002803     14.884942     18.810330      25.719429      34.296122       43.261877       49.127414       55.014015
+30       QRVLSWIPSNNHQLQLAGAL  4.052546  4.380613  4.888652   5.607585   6.613451   7.473356   8.499813     20.262730     21.903064      24.443262      28.037925       33.067257       37.366779       42.499064
+31      QRVLSWIPSNNHQLQLAGALA  4.053826  4.383170  4.896301   5.632811   6.686887   7.613870   8.757815     19.303931     20.872238      23.315719      26.822908       31.842320       36.256524       41.703880
+32               AIANFARNDANC  2.220128  2.555251  3.065354   3.843858   4.779915   5.365546   5.951503     18.501064     21.293760      25.544619      32.032150       39.832627       44.712879       49.595858
+33        ARNDANCIHMVDNGIVEKL  4.254533  5.176891  6.720374   8.450391  10.139688  11.097594  11.953304     22.392280     27.246794      35.370391      44.475744       53.366778       58.408392       62.912125
+34     MDLLDRHVEDGNVTVQHAALSA  4.013977  4.876736  6.262553   8.123621  10.090265  11.396562  12.749383     18.245351     22.166983      28.466149      36.925549       45.864842       51.802552       57.951743
+35    SALRNLAIPVINKAKMLSAGVTE  3.448666  4.413576  5.895639   7.793832   9.964880  11.401033  12.797542     14.994201     19.189462      25.633214      33.886227       43.325566       49.569710       55.641486
+36    AVLKFLKSEMPPVQFKLLGTLRM  3.100545  4.126164  5.681591   7.262659   8.872842  10.037832  11.356380     13.480632     17.939843      24.702567      31.576779       38.577572       43.642747       49.375566
+37         LIDAQAEAAEQLGKNVKL  3.312071  4.416604  6.008974   7.766840   9.152554   9.726330  10.225721     18.400395     24.536691      33.383187      43.149110       50.847523       54.035168       56.809563
+38   LIDAQAEAAEQLGKNVKLVERLVE  3.384455  4.558305  6.400113   8.768874  10.876876  11.806266  12.625653     14.101894     18.992939      26.667137      36.536974       45.320317       49.192777       52.606887
+39       WCEAKDHAGVMGESNRLLSA  4.567509  5.100299  6.160449   7.370545   8.726488   9.843654  10.955434     22.837545     25.501494      30.802243      36.852726       43.632440       49.218269       54.777168
+40  LIRHSKSKDVIKTIVQSGGIKHLVT  3.759162  5.079208  7.035180   9.449107  11.881745  13.449536  14.937578     15.036646     20.316830      28.140721      37.796429       47.526981       53.798143       59.750311
+41   IRHSKSKDVIKTIVQSGGIKHLVT  3.755265  5.071440  7.012175   9.375763  11.687136  13.121815  14.453069     15.646938     21.130999      29.217395      39.065679       48.696399       54.674228       60.221122
+42           MATSEHVIMQNEALVA  3.050919  3.624701  4.351755   5.125799   6.286476   7.133048   7.834664     19.068241     22.654382      27.198472      32.036242       39.290478       44.581551       48.966650
+43                HVIMQNEALVA  0.728956  0.895868  1.082573   1.549988   2.467619   3.207485   3.864839      6.626873      8.144251       9.841571      14.090804       22.432901       29.158951       35.134902
+44         IAALELGTAEKDLESAKL  4.081280  5.153459  6.807325   8.914160  11.002441  12.006904  12.558144     22.673775     28.630328      37.818473      49.523109       61.124670       66.705023       69.767469
+45            LELGTAEKDLESAKL  3.882114  4.785211  5.964311   7.363370   8.849248   9.588060  10.024021     25.880761     31.901409      39.762071      49.089133       58.994988       63.920403       66.826804
+46   VQILHRLLADERSAPEIKYNSMVL  3.553345  4.498327  6.105121   7.757866   9.764160  11.437288  13.190613     14.805605     18.743028      25.438005      32.324442       40.683999       47.655366       54.960888
+47        ICALMGSECLHKEVQDLAF  4.116178  5.215579  7.359974   9.529765  11.017673  11.804301  12.613722     21.664095     27.450416      38.736707      50.156660       57.987751       62.127898       66.388012
+48       ICALMGSECLHKEVQDLAFL  4.241635  5.447855  7.885477  10.387187  12.019133  12.890534  13.753202     21.208176     27.239274      39.427386      51.935934       60.095665       64.452668       68.766012
+49          ALMGSECLHKEVQDLAF  3.961463  4.939541  6.799017   8.678718   9.910124  10.533650  11.201308     23.302721     29.056122      39.994220      51.051282       58.294849       61.962647       65.890047
+50            MGSECLHKEVQDLAF  3.765250  4.602796  6.183948   7.837465   8.893453   9.390496   9.904144     25.101666     30.685305      41.226319      52.249765       59.289687       62.603303       66.027623
+51      LDVVSKLRSHENKSVAQQASL  5.532494  5.964776  7.047905   8.547190   9.905945  10.791295  11.723242     26.345210     28.403694      33.561454      40.700904       47.171165       51.387118       55.824963
+52  DVVSKLRSHENKSVAQQASLTEQRL  5.692467  6.258187  7.691890   9.567221  11.266166  12.486141  13.769027     22.769868     25.032749      30.767560      38.268883       45.064665       49.944564       55.076110
+Found 53 common peptides (first 10): ['LQALAQNNTETSEKIQASGILQ', 'FASLLTPQSSCKAKVANIIA', 'FASLLTPQSSCKAKVANIIAE', 'LTPQSSCKAKVANIIAEVAKNEF', 'MRIPCVDAGLISPLVQL', 'DSHEGRSAVDQAGGAQ', 'MRIPCVDAGLISPLVQLLNSKDQE', 'LNSKDQEVL', 'LQTGRALGNICY', 'IVIDHLRSLCS']
+Evaluating time points: ['30', '60', '180', '600', '1800', '3600', '7200']
+• Time 30s: 53 peptides, sum log‐lkhd = 25.35
+• Time 60s: 53 peptides, sum log‐lkhd = 47.59
+• Time 180s: 53 peptides, sum log‐lkhd = 105.98
+• Time 600s: 53 peptides, sum log‐lkhd = 115.09
+• Time 1800s: 53 peptides, sum log‐lkhd = 316.46
+• Time 3600s: 53 peptides, sum log‐lkhd = 581.85
+• Time 7200s: 53 peptides, sum log‐lkhd = 546.69
+TOTAL log‐likelihood = 1739.02
+AVG   log‐likelihood = 4.6874
+Results written to '../examples/ensemble_model/ensemble_hdx.csv'

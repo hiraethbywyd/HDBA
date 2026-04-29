@@ -1,0 +1,14 @@
+{
+  "microstates": {
+    "ms_0": [
+      0
+    ],
+    "ms_1": [
+      1
+    ]
+  },
+  "representatives": {
+    "ms_0": "../examples/4ex_model+search/models/yulia1.pdb",
+    "ms_1": "../examples/4ex_model+search/models/yulia1.pdb"
+  }
+}
